@@ -1,0 +1,23 @@
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.text-dark {
+    color: black;
+}
+.text-light {
+    color: white;
+}
+.light-theme {
+    background-color: yellow;
+    color: black;
+}
+.dark-theme {
+    background-color: red;
+    color: white;
+}
+.arial {
+    font-family: Arial;
+}

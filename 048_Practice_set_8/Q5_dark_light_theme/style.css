@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+body i {
+    font-size: 10rem;
+}
+.dark-theme {
+    background-color: rgb(30, 48, 80);
+}
+.light-theme {
+    background-color: yellow;
+}

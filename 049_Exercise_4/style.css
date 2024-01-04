@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 48, 80);
+}
+nav {
+    background-color: navy;
+}
+nav h1 {
+    color: aquamarine;
+}
+main {
+    width: 100%;
+    height: 550px;
+    background-color: rgb(30, 48, 80);
+}
+#outercontainer {
+    width: 90%;
+    height: 30%;
+    border: 1px solid black;
+    background-color: black;
+}
+.time {
+    width: 15%;
+    height: 10em;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+#dateContainer {
+    width: 90%;
+    height: 30%;
+    background-color: black;
+}
+.dateOfTime {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time h2 {
+    font-size: 8rem;
+}
+.dateOfTime h2 {
+    color: yellowgreen;
+}
+@media (max-width: 660px) {
+    .time h2 {
+        font-size: 4rem;
+    }
+}
+@media (max-width: 420px) {
+    .time h2 {
+        font-size: 3rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}

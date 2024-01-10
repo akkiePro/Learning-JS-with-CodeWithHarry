@@ -49,3 +49,7 @@ loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundl
     });
   });
 });
+
+function sendEmergencyMessageToCeo() {
+  console.log("calling CEO...")
+}

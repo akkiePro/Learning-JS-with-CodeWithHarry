@@ -23,7 +23,7 @@ async function fetchingAPI() {
     return result;
 }
 async function apiResult() {
-    let result = await fetchingAPI();
-    console.log("result: ", result); // now it won't return promise. it will return result because of await.
+    let finalResult = await fetchingAPI();
+    console.log("Final Result: ", finalResult); // now it won't return promise. it will return result because of await.
 }
 apiResult();

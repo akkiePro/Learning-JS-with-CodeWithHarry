@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.font-size {
+    font-size: 1em;
+}
+main{
+    display: flex;
+}
+button {
+    border-radius: 10px;
+}
+input {
+    width: 100%;
+    height: 50px;
+}
+#btnSub {
+    background-color: green;
+    margin-left: 5px;
+}
+#btnRst {
+    background-color: red;
+    margin-left: 5px;
+}
+.removeBtn {
+    background-color: orange;
+}
+.border {
+    border: 1px solid black;
+}
+footer {
+    position: fixed;
+    top: 200px;
+}
+td {
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+tr {
+    padding: 0;
+    margin: 0;
+}
+table {
+    padding: 0;
+    margin: 0;
+}

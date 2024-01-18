@@ -1,3 +1,9 @@
+/**
+ * same as cookie but with extra limit of storage.
+ * limit up to 10 MB.
+ * will work for all pages and sessions
+ */
+
 // 1.
 /* console.log(localStorage.length);
 // const key = encodeURIComponent(prompt("enter local storage key"));
@@ -43,3 +49,9 @@ console.log(localStorage.getItem(key1));
 // 3. we can also access via following
 console.log(localStorage.user);
 console.log(localStorage.myObject1);
+
+
+// 4. clears all Local Storage
+if (key == 0) {
+    localStorage.clear();
+}

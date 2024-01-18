@@ -26,9 +26,9 @@ let fetchAPI = async () => {
     // console.log(statusAPI.status);
     // console.log(statusAPI.ok);
     // console.log(statusAPI.headers);
-    console.log(statusAPI.json()); 
+    const response = statusAPI.json(); 
 
-    return statusAPI;
+    return response;
 };
 let fetchResponse = async () => {
     let response = await fetchAPI();

@@ -14,3 +14,5 @@ document.cookie = `${encodeURIComponent(key)}=${encodeURIComponent(value)}`;
 
 console.log(document.cookie);
 console.log(decodeURIComponent(document.cookie));
+
+document.cookie = "user=akash; path=/067_cookie/anotherPageCookie.html";

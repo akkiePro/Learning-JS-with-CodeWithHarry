@@ -16,3 +16,9 @@ console.log(document.cookie);
 console.log(decodeURIComponent(document.cookie));
 
 document.cookie = "user=akash; path=/067_cookie/anotherPageCookie.html";
+
+/**
+ * cookie has limit of storage up to 4KB.
+ * also limit of 20 cookies(varies from browser to browser)
+ * usage: we can set unique identifiaction data in cookie to identify client/customer
+ */

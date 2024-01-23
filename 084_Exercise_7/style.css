@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #910A67;
+    color: #030637;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #030637;
+}
+
+div {
+    margin-top: 50px;
+}
+
+.sliderBtn {
+    border: none;
+    border-radius: 100%;
+}
+
+#minusBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 1.8em;
+    background-color: red;
+}
+#plusBtn {
+    width: 50px;
+    height: 50px;
+    font-size: 2.2em;
+    background-color: green;
+}
+
+.texture {
+    margin-left: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #910A67;
+}
+
+#reload {
+    color: #720455;
+}
+#copy {
+    color: #720455;
+}
+
+.pointer {
+    cursor: pointer;
+}

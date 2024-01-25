@@ -1,0 +1,15 @@
+{
+  "name": "096_first_npm_module_package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-creator-node": "^2.3.5"
+  }
+}

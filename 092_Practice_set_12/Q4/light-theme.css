@@ -1,0 +1,33 @@
+header {
+    background-color: blue;
+    color: white;
+}
+i {
+    color: darkblue;
+}
+
+main {
+    background-color: aliceblue;
+}
+#border {
+    background-color: lightpink;
+}
+#keypad {
+    background-color: darkgray;
+}
+.operator {
+    background-color: orangered;
+    color: black;
+}
+#keyAC {
+    background-color: red;
+    color: black;
+}
+#keyErase {
+    background-color: red;
+    color: black;
+}
+#keyEqual {
+    background-color: orange;
+}
+
